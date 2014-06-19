@@ -16,8 +16,9 @@ Configured to be output to output/combined_data.csv by default.
 
 #### Data Format:
 
-| Subject 	| Activity | Mean | Std.Dev |
-| --------- | -------- | ---- | ------- |
+| Subject 	| Activity  | Mean    | Std.Dev |
+| --------- | --------- | ------- | ------- |
+| numeric   | character | numeric | numeric |
 
 * Subject - numerical index associated with a subject from whom the measurements were acquired
 * Activity - descriptive name of the activity performed by the subject during the measurements acquired for the reading
@@ -30,7 +31,9 @@ Includes data defining the average readings of each subject's measurements assoc
 
 #### Data Format:
 
-| Subject | Activity | Mean |
+| Subject | Activity  | Mean    |
+| ------- | --------- | ------- |
+| numeric | character | numeric |
 
 * Subject - numerical index associated with a subject from whom the measurements were acquired
 * Activity - descriptive name of the activity performed by the subject during the measurements acquired for the readings
